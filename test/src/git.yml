@@ -21,10 +21,10 @@ jobs:
         run: npm install
 
       - name: Build Angular app
-        run: npm run build -- --output-path=dist/angulartest --base-href=/
+        run: npm run build -- --output-path=dist/test --base-href=/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist/angulartest
+          publish_dir: dist/test
