@@ -5,7 +5,7 @@
   "projects": {
     "test": {
       "projectType": "application",
-      "your-project-name": "AngularTest",
+      "your-project-name": "test",
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
